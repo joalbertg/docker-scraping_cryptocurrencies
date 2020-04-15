@@ -1,0 +1,10 @@
+# .dockerignore
+**/.git*
+
+**/README.md
+
+**/docker-compose.yml
+**/Dockerfile
+
+# '**' matches any number of directories (including zero)
+

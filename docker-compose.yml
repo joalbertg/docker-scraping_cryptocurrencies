@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    build: .
+    command: sh -c "node index.js"
+    volumes:
+      - .:/myapp
+
